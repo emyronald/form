@@ -87,6 +87,7 @@ input {
 .form-input {
   background-color: white;
   padding: 1rem var(--padding-left);
+  box-shadow: 3px 3px 8px rgb(206, 202, 202);
 }
 
 .submit-section {
