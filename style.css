@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: abeedee;
+}
+:root {
+  --padding-left: 5rem;
+}
+
+@font-face {
+  font-family: abeedee;
+  src: url(./assets/fonts/webfontkit-20241208-152630/abeezee-italic-webfont.woff2)
+    format(woff2);
+  src: url(./assets/fonts/webfontkit-20241208-152630/abeezee-italic-webfont.woff)
+    format(woff);
+}
+
+aside {
+  background-image: url(./assets/img/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+}
+
+.img-div {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(18, 19, 20, 0.7);
+  justify-content: center;
+  width: 100%;
+}
+
+img {
+  height: 80%;
+  display: block;
+}
+
+.logo-text {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+h2 {
+  text-wrap: wrap;
+  max-width: 50ch;
+  margin-bottom: 2.5rem;
+  margin-left: var(--padding-left);
+}
+
+h2 + h2 {
+  margin-top: -1rem;
+}
+
+main {
+  background-color: whitesmoke;
+  width: 100%;
+}
+label,
+input {
+  display: block;
+}
+
+.input-section {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5rem;
+  row-gap: 2rem;
+  max-width: 80ch;
+  margin-top: -1rem;
+}
+
+input {
+  width: 35ch;
+  height: 2rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 5px;
+}
+
+.form-input {
+  background-color: white;
+  padding: 1rem var(--padding-left);
+}
+
+.submit-section {
+  padding-left: var(--padding-left);
+}
+
+.info {
+  padding-top: 13vh;
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: inherit;
+  padding: 0.8rem 3rem;
+  margin: 2rem 0;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+}
+
+.form-header {
+  margin-left: 0;
+  margin-top: 1rem;
+}
+
+input:valid:focus {
+  outline-color: blue;
+  box-shadow: 2px 2px 5px rgba(0, 0, 255, 0.753);
+}
+input:invalid {
+  outline-color: red;
+}
+
+button:hover {
+    background-color: white;
+    color:#596d48;
+    border: 2px solid #596d48;
+    padding: calc(0.8rem - 2px) calc(3rem - 2px);
+}
+
