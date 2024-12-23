@@ -49,7 +49,6 @@ body {
   height: 100vh;
 }
 h2 {
-  text-wrap: wrap;
   max-width: 50ch;
   margin-bottom: 2.5rem;
   margin-left: var(--padding-left);
@@ -88,6 +87,7 @@ input {
   background-color: white;
   padding: 1rem var(--padding-left);
   box-shadow: 3px 3px 8px rgb(206, 202, 202);
+  padding-bottom: 3rem;
 }
 
 .submit-section {
